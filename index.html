@@ -22,7 +22,7 @@
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="style.css">
 
-    <script src="script.js"></script>
+    <script defer src="app.js"></script>
 </head>
 <body>
 <!-- Main Container -->
@@ -30,28 +30,31 @@
   <header class="header">
   <img src="img/1726091633688.png" class="logo" alt="">
   <nav class="nav">
-    <input type="checkbox" id="checkbox" class="checkbox">
-    <label for="checkbox" class="label-menu">MENU<span class="hamburguer"></span>
-      </label>
-
-    <ul class="menu">
-      <li><a href="#hero">Home</a></li>
+   <button class="btn-menu" 
+   aria-label="Abrir menu" 
+   aria-haspopup="true" 
+   aria-controls="menu" 
+   aria-expanded="false">
+   Menu<span class="hamburger"></span></button>
+    <ul class="menu" id="menu" role="menu">
+      <li><a href="#home">Home</a></li>
       <li><a href="#about">Sobre nós</a></li>
       <li> <a href="#contact">Contato</a></li>
-      <li> <a href="#contact">Serviços</a></li>
-      <li> <a href="#contact">profissional</a></li>
+      <li> <a href="#service">Serviços</a></li>
+      <li> <a href="#profissional">profissional</a></li>
+      <li> <a href="#local">Localização</a></li>
     </ul>
   </nav> 
   </header>
   <!-- Hero Section -->
-  <section class="hero" id="hero">
+  <section class="hero" id="home">
     <h2 class="hero_header">  Mais <span class="light">Linda</span></h2>
     <p class="tagline">Extensão de cílios não é só para te deixar bonita, é para te deixar poderosa e realçar a beleza que existe em você!</p>
   </section>
   <!-- About Section -->
-  <section class="about" id="about">
-    <h2 class="hidden">About</h2>
-    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+  <section class="about" id="abouut">
+    <h2 class="hidden">Sobre nós</h2>
+    <p class="text_column"> um pouco sobre mim </p>
     <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
     <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
   </section>
@@ -84,26 +87,29 @@
     <p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
   </section>
   <!-- More Info Section -->
+  <section id="about">
   <footer>
     <article class="footer_column">
       <h3>ABOUT</h3>
-      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <img src="img/eye.jpg" alt="" class="cards"/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
     </article>
     <article class="footer_column">
+     <section class="local" id="local">
       <h3>LOCATION</h3>
-      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.660039585121!2d-48.53834402449421!3d-27.60406757624192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527384b250f6abf%3A0xdca2501337a2accd!2sR.%20J%C3%BAlia%20da%20Costa%2C%20527%20-%20Saco%20dos%20Lim%C3%B5es%2C%20Florian%C3%B3polis%20-%20SC%2C%2088045-200!5e0!3m2!1spt-BR!2sbr!4v1726123714175!5m2!1spt-BR!2sbr" width="980" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
     </article>
+  </section>
   </footer>
   <!-- Footer Section -->
   <section class="footer_banner" id="contact">
     <h2 class="hidden">Footer Banner Section </h2>
     <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
     <div class="button">subscribe</div>
-  </section>
+  </div>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2024 - <strong>Light Theme</strong></div>
+  <div><section class="copyright">&copy;2024 - <strong>Light Theme</strong></div>
 </div>
 </body>
 </html>
