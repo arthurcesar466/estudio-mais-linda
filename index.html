@@ -15,9 +15,11 @@
 <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css"/>
 <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-thin-rounded/css/uicons-thin-rounded.css"/>
 <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-thin-straight/css/uicons-thin-straight.css"/>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
 <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css"/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <title>Mais Linda</title>
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="style.css">
@@ -27,21 +29,17 @@
 <body>
 <!-- Main Container -->
 <div class="container" id="container"> <!-- Navigation -->
+
   <header class="header">
   <img src="img/1726091633688.png" class="logo" alt="">
   <nav class="nav">
-   <button class="btn-menu" 
-   aria-label="Abrir menu" 
-   aria-haspopup="true" 
-   aria-controls="menu" 
-   aria-expanded="false">
+   <button class="btn-menu">
    Menu<span class="hamburger"></span></button>
     <ul class="menu" id="menu" role="menu">
       <li><a href="#home">Home</a></li>
-      <li><a href="#about">Sobre nós</a></li>
+      <li> <a href="#about">A profissional</a></li>
       <li> <a href="#contact">Contato</a></li>
       <li> <a href="#service">Serviços</a></li>
-      <li> <a href="#profissional">profissional</a></li>
       <li> <a href="#local">Localização</a></li>
     </ul>
   </nav> 
@@ -81,35 +79,158 @@
       <p>One line description</p>
     </div>
   </div>
+  <!-- serviços -->
+ 
   <!-- Parallax Section -->
+  <section id="service">
   <section class="banner">
-    <h2 class="parallax">PARALLAX HERO</h2>
-    <p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    <h2 class="parallax">SERVIÇOS</h2>
+    <p class="parallax_description">"Com carinho e atenção em cada detalhe, para oferecer não apenas o melhor atendimento, mas também uma experiência única e especial para nossas clientes.”</p>
+  </section>
+  
+    <div class="tabs">
+      <button class="tab-button" data-tab="s">Volume Fio a Fio <i class="fi fi-rs-plus"></i></button>
+      <div class="tab-content" id="s">Volume Fio a fio 
+        <p> Aplicação de volume fio a fio  R$ 135,00<br>Formas de pagamento<br> Dinheiro, Pix Débito ou Crédito (com taxa da máquina)</p>
+        <p>Manutenções - até 15 dias R$-70,00 <br> Até 30 dias R$ - 75,00</p>
+        <p>A técnica de colocação de cílios fio a fio é amplamente reconhecida no mundo da beleza por proporcionar um olhar natural e elegante. Essa técnica envolve a aplicação de fios sintéticos individuais sobre cada cílio natural, criando um efeito de alongamento e preenchimento sem exageros. Diferente da técnica de volume brasileiro, que utiliza múltiplos fios em formato de Y, a colocação fio a fio busca um resultado mais sutil e delicado.
+          O procedimento é realizado com o uso de uma cola especial, hipoalergênica e resistente à água, garantindo a durabilidade e segurança da aplicação. Cada fio sintético é cuidadosamente posicionado próximo à raiz dos cílios naturais, utilizando uma pinça de precisão. Isso permite um controle exato sobre o comprimento e a curvatura dos cílios, resultando em um acabamento impecável.
+          Além de realçar a beleza dos olhos, a técnica de colocação fio a fio é ideal para quem deseja cílios longos e definidos, mantendo um aspecto natural. É uma excelente opção para quem busca um olhar mais expressivo e sofisticado, sem abrir mão da naturalidade.</p>
+        <img src="img/volbr.jpg" alt="" class="fotos-vol">
+      </div>
+
+      <button class="tab-button" data-tab="cabelos">Volume Brasileiro <i class="fi fi-rs-plus"></i></button>
+      <div class="tab-content" id="cabelos">Volume Brasileiro 
+        <p> Aplicação de volume brasileiro  R$ 140,00<br>Formas de pagamento<br> Dinheiro, Pix Débito ou Crédito (com taxa da máquina)</p>
+        <p>Manutenções - até 15 dias R$-70,00 <br> Até 30 dias R$ - 75,00</p>
+        <p>A técnica de colocação de cílios volume brasileiro é uma das mais populares no mundo da beleza, conhecida por proporcionar um olhar marcante e volumoso. Essa técnica envolve a aplicação de vários fios sintéticos em formato de Y sobre cada cílio natural, criando um efeito de leque que aumenta significativamente o volume e a densidade dos cílios. Diferente da técnica de volume russo, que utiliza fios mais finos e em maior quantidade, o volume brasileiro busca um resultado mais natural e harmonioso. O procedimento é realizado com o uso de cola especial, hipoalergênica e resistente à água, garantindo a durabilidade e segurança da aplicação. Além de realçar a beleza dos olhos, a técnica de volume brasileiro é ideal para quem deseja cílios longos, curvados e com um acabamento impecável</p>
+        <img src="img/volbr.jpg" alt="" class="fotos-vol">
+      </div>
+
+      <button class="tab-button" data-tab="maquiagem">Volume Mega Brasileiro<i class="fi fi-rs-plus"></i></button>
+      <div class="tab-content" id="maquiagem">Volume Mega Brasileiro
+        <p> Aplicação de volume mega brasileiro  R$ 165,00<br>Formas de pagamento<br> Dinheiro, Pix Débito ou Crédito (com taxa da máquina)</p>
+        <p>Manutenções - R$-165,00</p>
+        <p>A técnica de colocação de cílios volume mega brasileiro é uma das mais avançadas e impactantes no mundo da beleza. Conhecida por criar um efeito extremamente volumoso e dramático, essa técnica envolve a aplicação de múltiplos fios sintéticos ultrafinos em cada cílio natural. Diferente do volume brasileiro tradicional, onde são aplicados fios em formato de Y, o volume mega brasileiro utiliza uma maior quantidade de fios, proporcionando um olhar ainda mais cheio e marcante.
+          O procedimento é realizado com o uso de uma cola especial, hipoalergênica e resistente à água, garantindo a durabilidade e segurança da aplicação. Cada conjunto de fios é cuidadosamente posicionado para criar um efeito de leque, aumentando significativamente a densidade e o volume dos cílios. A técnica é ideal para quem deseja um olhar poderoso e impactante, perfeito para ocasiões especiais ou para quem gosta de um visual mais glamouroso no dia a dia</p>
+        <img src="img/megabr.jpg" alt="" class="fotos-vol">
+      </div>
+      
+      <button class="tab-button" data-tab="cilios">Volume Luxo<i class="fi fi-rs-plus"></i></button>
+      <div class="tab-content" id="cilios">Conteúdo para Cílios e Sobrancelhas
+        <p> Aplicação de volume luxo  R$ 155,00<br>Formas de pagamento<br> Dinheiro, Pix Débito ou Crédito (com taxa da máquina)</p>
+        <p>Manutenções - até 15 dias R$-80,00 <br> Até 30 dias R$ - 95,00</p>
+        <p>A técnica de colocação de cílios Volume Luxo é cada vez mais popular no mundo da beleza, conhecida por proporcionar um olhar sofisticado e natural. Essa técnica envolve a aplicação de extensões de cílios com volume moderado, utilizando uma variedade de fios para criar um efeito harmonioso e elegante. Diferente do volume russo, que pode resultar em um visual mais dramático, o Volume Luxo busca um resultado mais leve e refinado.
+          O procedimento é realizado com o uso de uma cola especial, hipoalergênica e resistente à água, garantindo a durabilidade e segurança da aplicação. Cada conjunto de fios é cuidadosamente posicionado para criar um efeito de leque suave, aumentando a densidade dos cílios sem exageros. A técnica é ideal para quem deseja um olhar destacado e bem definido, mas com um toque de naturalidade.
+          Além de realçar a beleza dos olhos, a técnica de Volume Luxo oferece um tempo de atendimento mais rápido, geralmente entre 40 a 60 minutos1. Isso torna o procedimento conveniente para a mulher moderna, que pode encaixar a manutenção dos cílios em sua agenda ocupada. É uma excelente opção para quem busca cílios volumosos, longos e com um acabamento impecável, sem abrir mão da sofisticação e do conforto.
+          
+          Se precisar de mais informações ou tiver alguma dúvida, estou aqui para ajudar!</p>
+        <img src="img/volluxo.jpg" alt="" class="fotos-vol">
+      </div>
+      
+      <button class="tab-button" data-tab="estetica">Volume Mega Luxo<i class="fi fi-rs-plus"></i></button>
+      <div class="tab-content" id="estetica">Conteúdo para Estética
+        <p> Aplicação de volume mega luxo  R$ 175,00<br>Formas de pagamento<br> Dinheiro, Pix Débito ou Crédito (com taxa da máquina)</p>
+        <p>Manutenções - R$ - 175,00</p>
+        <p>A técnica de colocação de cílios Volume Mega Luxo é uma das mais sofisticadas e luxuosas no mundo da beleza, conhecida por proporcionar um olhar extremamente volumoso e glamouroso. Essa técnica envolve a aplicação de múltiplos fios sintéticos ultrafinos em cada cílio natural, criando um efeito de leque que aumenta significativamente o volume e a densidade dos cílios. Diferente do volume brasileiro tradicional, o Volume Mega Luxo utiliza fios de diâmetro muito pequeno, permitindo a aplicação de um maior número de fios sem sobrecarregar os cílios naturais.
+          O procedimento é realizado com o uso de uma cola especial, hipoalergênica e resistente à água, garantindo a durabilidade e segurança da aplicação. Cada conjunto de fios é cuidadosamente posicionado para criar um efeito de leque perfeito, resultando em um olhar cheio e impactante. A técnica é ideal para quem deseja um visual poderoso e sofisticado, perfeito para eventos especiais ou para quem gosta de um visual mais glamouroso no dia a dia.</p>
+        <img src="img/volume mega luxo1.jpg" alt="" class="fotos-vol">
+      </div>
+      
+      <button class="tab-button" data-tab="depilacao">Depilação de Buço<i class="fi fi-rs-plus"></i></button>
+      <div class="tab-content" id="depilacao">Conteúdo para Depilação
+        <p> Aplicação de volume brasileiro  R$ 140,00<br>Formas de pagamento<br> Dinheiro, Pix Débito ou Crédito (com taxa da máquina)</p>
+        <p>A técnica de colocação de cílios volume brasileiro é uma das mais populares no mundo da beleza, conhecida por proporcionar um olhar marcante e volumoso. Essa técnica envolve a aplicação de vários fios sintéticos em formato de Y sobre cada cílio natural, criando um efeito de leque que aumenta significativamente o volume e a densidade dos cílios. Diferente da técnica de volume russo, que utiliza fios mais finos e em maior quantidade, o volume brasileiro busca um resultado mais natural e harmonioso. O procedimento é realizado com o uso de cola especial, hipoalergênica e resistente à água, garantindo a durabilidade e segurança da aplicação. Além de realçar a beleza dos olhos, a técnica de volume brasileiro é ideal para quem deseja cílios longos, curvados e com um acabamento impecável</p>
+        
+      </div>
+      
+    </div>
   </section>
   <!-- More Info Section -->
   <section id="about">
   <footer>
     <article class="footer_column">
-      <h3>ABOUT</h3>
-      <img src="img/eye.jpg" alt="" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <h3>A profissional</h3>
+      <img src="img/maria2.png" alt="" class="cards"/>
+      <p>Maria Letícia, uma jovem de 19 anos, tem se destacado no ramo da beleza em Florianópolis. Há três anos, ela iniciou sua carreira como especialista em colocação de cílios, dedicando-se a aprimorar suas técnicas e oferecer um serviço de alta qualidade. Com um olhar atento aos detalhes e uma paixão pelo que faz, Maria Letícia conquistou uma clientela fiel que confia em seu trabalho para realçar a beleza natural dos olhos. Sua habilidade em criar cílios volumosos e bem definidos, utilizando a técnica de volume brasileiro, tem sido amplamente reconhecida e elogiada. Além de sua competência técnica, Maria Letícia é conhecida por seu atendimento acolhedor e personalizado, garantindo que cada cliente se sinta especial e satisfeita com os resultados</p>
     </article>
     <article class="footer_column">
      <section class="local" id="local">
-      <h3>LOCATION</h3>
+      <h3>LOCALIZAÇÃO</h3>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.660039585121!2d-48.53834402449421!3d-27.60406757624192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527384b250f6abf%3A0xdca2501337a2accd!2sR.%20J%C3%BAlia%20da%20Costa%2C%20527%20-%20Saco%20dos%20Lim%C3%B5es%2C%20Florian%C3%B3polis%20-%20SC%2C%2088045-200!5e0!3m2!1spt-BR!2sbr!4v1726123714175!5m2!1spt-BR!2sbr" width="980" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <p>Rua Julia da Costa n°527 <br> Saco dos Limões - Florianópolis - SC <br> CEP: 88045-200</p>
     </article>
   </section>
-  </footer>
+</footer>
+<div class="new-container">
+  <section id="contact" class="contact">
+    <h3>Contato</h3>
+   <nav class="nav"></nav>
+   <ul class="roda" id="menu" role="roda">
+    <li>
+      <a href="#home">
+        <div class="icon-text">
+          <i class="fi fi-tr-home-heart"></i>
+          <span>Home</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#about">
+        <div class="icon-text">
+          <i class="fi fi-rr-following"></i>
+          <span>A profissional</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://wa.me/48984942589" target="_blank">
+        <div class="icon-text">
+          <i class="fi fi-brands-whatsapp"></i>
+          <span>Contato</span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#service">
+        <div class="icon-text">
+          <img src="./img/eyebrow.png" alt="Serviços" class="eye">
+          <span>Serviços</span>
+        </div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="https://www.instagram.com/studiomaislindaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <div class="icon-text">
+          <i class="fi fi-brands-instagram"></i>
+          <span>Instagram</span>
+        </div>
+      </a>
+    </li>
+  </ul>
+</section>
+</div>
+<div class="whatsapp-fixed" id="whatsapp-fixed">
+  <a href="https://wa.me/48984942589" target="_blank">
+    <i class="fi fi-brands-whatsapp"></i>
+  </a>
+</div>
+  <div><section class="copyright">&copy;2024 - <strong>Light Theme</strong></div>
+</div>
+  
+  
   <!-- Footer Section -->
-  <section class="footer_banner" id="contact">
+ <!--- <section class="footer_banner" id="contact">
     <h2 class="hidden">Footer Banner Section </h2>
     <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
     <div class="button">subscribe</div>
+    
+    <div><section class="copyright">&copy;2024 - <strong>Light Theme</strong></div>
   </div>
-  <!-- Copyrights Section -->
-  <div><section class="copyright">&copy;2024 - <strong>Light Theme</strong></div>
+  
+  !-- Copyrights Section -->
+ 
 </div>
 </body>
 </html>
