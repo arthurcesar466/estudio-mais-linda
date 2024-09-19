@@ -128,4 +128,3 @@ function drag(e) {
 function endDrag() {
   whatsappFixed.style.cursor = 'grab';
 }
-  
