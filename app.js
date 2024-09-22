@@ -103,28 +103,4 @@ document.querySelectorAll('.tab-button').forEach(button => {
 
   //whatsapp movel//
 
-  const whatsappFixed = document.getElementById('whatsapp-fixed');
-
-whatsappFixed.addEventListener('touchstart', startDrag);
-whatsappFixed.addEventListener('touchmove', drag);
-whatsappFixed.addEventListener('touchend', endDrag);
-
-let offsetX, offsetY;
-
-function startDrag(e) {
-  const touch = e.touches[0];
-  offsetX = touch.clientX - whatsappFixed.getBoundingClientRect().left;
-  offsetY = touch.clientY - whatsappFixed.getBoundingClientRect().top;
-  whatsappFixed.style.cursor = 'grabbing';
-}
-
-function drag(e) {
-  e.preventDefault();
-  const touch = e.touches[0];
-  whatsappFixed.style.left = `${touch.clientX - offsetX}px`;
-  whatsappFixed.style.top = `${touch.clientY - offsetY}px`;
-}
-
-function endDrag() {
-  whatsappFixed.style.cursor = 'grab';
-}
+ 

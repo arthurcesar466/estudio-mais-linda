@@ -14,6 +14,7 @@ body {
   font-weight: 200;
   min-height: auto;
 }
+
 /* Container */
 .container {
   max-width: 90%;
@@ -382,16 +383,40 @@ footer .footer_column p {
   cursor: pointer;
 }
 .copyright {
-  margin-top: auto;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #717070;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  border-top-width: 2px;
+   text-decoration: none;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 0.1px;
+    background-color: #ffffffbf;
+    margin: 2px;
+    margin-bottom: 15px;
+    color: #ffbf00;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    border-top-width: 1px;
+	cursor: pointer;
+}
+.site{
+	font-size: 13px;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.site2{
+	font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: #ba8b00;
+	text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 .footer_banner {
   margin-top: auto;
@@ -552,11 +577,9 @@ ul {
 .roda a:hover {
   color: black;
 }
-
 .roda li {
   display: inline;
 }
-
 .icon-text {
   display: flex;
   flex-direction: column;
@@ -578,29 +601,11 @@ ul {
   background-position: 100% 0%;
   transition: background-position 0.7s ease;
 }
-
 .icon-text i:hover {
   color: #ffffff;
   background-position: 0% 0%;
   transition: background-position 0.7s, color 1s ease;
 }
-/*.icon-text i {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 8px #00000052;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 0.5rem; 
-    overflow: hidden;
-	z-index: 300;
-}*/
-
 .link1 i {
   color: #000000;
   background: linear-gradient(
@@ -619,7 +624,6 @@ ul {
 .link1 i:hover {
   background-position: 0% 100%;
 }
-
 .link2 i {
   color: #000000;
   background: linear-gradient(
@@ -638,7 +642,6 @@ ul {
 .link2 i:hover {
   background-position: 0% 100%;
 }
-
 .link3 i {
   color: #000000;
   background: linear-gradient(
@@ -675,18 +678,17 @@ ul {
 }
 
 .link4:hover .eye {
-  fill: #ffffff;
-  color: #ffffff; /* Muda a cor para branco ao passar o mouse */
   background-position: 0% 100%; /* Ajusta a posição do gradiente */
 }
 
 .link4 .icon-text-span {
   transition: color 0.7s ease;
 }
-
-.link4:hover .icon-text-span {
-  color: #ffffff; /* Muda a cor do texto para branco ao passar o mouse */
-}
+.link4:hover .icon-path {
+	fill: #fffefe !important; /* Cor desejada ao passar o mouse */
+	transition: fill 0.7s ease;
+	
+  }
 .link5 i {
   color: #000000;
   background: linear-gradient(
@@ -695,8 +697,8 @@ ul {
     #5b51db,
     #b33ab4,
     #c135b4,
-    #e1306c,
-    #c11717 50%,
+    #e17730,
+    #e7af2d 50%,
     rgb(237, 237, 237) 50%
   );
   background-size: 100% 200%;
@@ -706,7 +708,6 @@ ul {
 .link5 i:hover {
   background-position: 0% 100%;
 }
-
 .eye {
   fill: #000000;
   box-shadow: 0 0 8px #00000034;
@@ -725,6 +726,7 @@ ul {
   background-position: 100% 0%;
   transition: background-position 0.7s ease, color 1s ease;
 }
+
 
 /* Small Tablets */
 @media (min-width: 321px) and (max-width: 995px) {
