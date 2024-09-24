@@ -2,16 +2,16 @@
 $dbHost = "localhost";
 $dbUsername= "root";
 $dbPassword= "";
-$dbName =   "form";
+$dbName =   "form-arthur";
 
-$conexao = new mysqli($dbHost, $dbUser, $dbPassword, $dbName);
-if ($conexao->connect_errno) 
-{
-    echo "erro";
-}
+$conexao = new mysqli('localhost', 'root', '', 'form-arthur');
 
-else 
-{
-    echo "Conexão Efetuada com sucesso";
-}
+//if ($conexao->connect_error) {
+  //  die("Connection failed: " . $conexao->connect_error);
+//}
+
+//else 
+//{
+  //  echo "Conexão Efetuada com sucesso";
+//}
 

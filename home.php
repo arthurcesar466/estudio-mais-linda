@@ -22,8 +22,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <title>Mais Linda</title>
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
+<link rel="stylesheet" href="styles/home.css">
+    <script defer src="./script/app.js"></script>
 </head>
 <body>
 <!-- Main Container -->
@@ -41,8 +41,6 @@
       <li> <a href="#contact">Contato</a></li>
       <li> <a href="#service">Serviços</a></li>
       <li> <a href="#local">Localização</a></li>
-      <li> <a href="http://127.0.0.1:5500/Form/index.html">Cadastro</a></li>
-
     </ul>
   </nav> 
   </header>
@@ -269,8 +267,8 @@
 </div> -->
  <div><section class="copyright" id="copyright">
   <a class="site" href="https://arthurcesar466.github.io/page-com-varios-projetinhos-/" target="_blank">
-<p class="site">Site Desenvolvido por - </p>
-<p class="site2">- Arthur César de frança</p>
+<p class="site">Copyright @2024 Site Desenvolvido por </p>
+<p class="site2">Arthur César de frança</p>
  </section>
 </a>
 </div>

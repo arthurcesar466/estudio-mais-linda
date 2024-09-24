@@ -81,7 +81,7 @@ body {
   font-family: jost;
   color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./img/eye.jpg);
+    url(../img/eye.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 45% 32%;
@@ -211,7 +211,7 @@ body {
 /* Parallax Section */
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url(./img/SMOKE.jpg);
+    url(../img/SMOKE.jpg);
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -398,6 +398,7 @@ footer .footer_column p {
 	cursor: pointer;
 }
 .site{
+  display: inline-block;
 	font-size: 13px;
 	justify-content: center;
 	display: flex;
@@ -407,10 +408,12 @@ footer .footer_column p {
 	text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 2px;
+    padding-left: 10px;
+    
 }
 .site2{
 	font-size: 13px;
-	display: flex;
+	display: inline-block;
 	flex-direction: row;
 	text-decoration: none;
 	color: #ba8b00;
@@ -879,6 +882,50 @@ ul {
   .icon-text {
     justify-content: center; /* Centraliza o conteúdo verticalmente */
   }
+
+  .copyright {
+    text-decoration: none;
+     text-align: center;
+     padding-top: 7px;
+     padding-bottom: 0.1px;
+     background-color: #ffffffbf;
+     margin: 2px;
+     margin-bottom: 15px;
+     color: #ffbf00;
+     text-transform: uppercase;
+     font-weight: 200;
+     letter-spacing: 2px;
+     border-top-width: 1px;
+   cursor: pointer;
+ }
+ .site{
+   font-size: 9px;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   color: #000000;
+   text-transform: uppercase;
+     font-weight: 200;
+     letter-spacing: 2px;
+     margin-left: -7px;
+ }
+ .site2{
+   font-size: 9px;
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   color: #ba8b00;
+   text-transform: uppercase;
+     font-weight: 200;
+     letter-spacing: 2px;
+     margin-right: 32px;
+ }
+
+
+
+
+
 }
 
 .hero_header {
@@ -896,7 +943,7 @@ ul {
   font-family: jost;
   color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./img/eye.jpg);
+    url(../img/eye.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 150px;
